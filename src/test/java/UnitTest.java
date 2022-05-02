@@ -10,7 +10,7 @@ public class UnitTest {
 
     @Test
     public void test01() {
-        List<Integer> numbers = Arrays.asList(1, 2, 3);
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
         int sum = numbers.stream().reduce(0, Integer::sum);
         System.out.println("sum = " + sum);
     }
